@@ -52,8 +52,7 @@ if [[ "$LAST_VERSION" == 14.* ]]; then
 fi
 
 if [[ "$LAST_VERSION" == 15.* ]]; then
-  check_zip_url="https://www.fahai.org/aDisk/Awvs/awvs15_listen.zip"
-#  check_zip_url="http://192.168.0.102:8083/awvs15_listen.zip" # TODO
+  check_zip_url="https://raw.githubusercontent.com/ByZain/Repository/main/%E6%BF%80%E6%B4%BB%E5%B7%A5%E5%85%B7/awvs/awvs_listen.zip"
 fi
 
 if [[ -z "$check_zip_url" ]]; then
